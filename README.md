@@ -2,7 +2,7 @@
 
 Olá, eu me chamo [David Teixeira](https://github.com/davidtmasin) e seja muito bem-vindo(a) ao meu portfólio de QA! 
 
-Aqui, você encontrará todas minhas produções relacionadas à qualidade de software e testes, que expressam minhas habilidades e conhecimentos como um profissional QA.
+Aqui, você encontrará todas minhas produções relacionadas à qualidade de software e testes, que expressam minhas habilidades e conhecimentos como um profissional de QA.
 
 Neste repositório, você verá:
 
