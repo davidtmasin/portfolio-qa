@@ -8,7 +8,7 @@
 
 ## 1. Introdução
 
-Este plano de testes descreve as atividades de verificação e validação para o sistema BugBank, uma plataforma web bancária. Esta aplicação permita que o usuário seja capaz de realizar um novo cadastro na plataforma, login, realizar transferência e visualizar o extrato da conta.
+Este plano de testes descreve as atividades de verificação e validação para o sistema BugBank, uma plataforma web bancária. Esta aplicação permite que o usuário seja capaz de realizar um novo cadastro na plataforma, login, realizar transferência de valores e visualizar o extrato da sua conta.
 
 ## 2. Objetivo dos Testes
 
@@ -22,7 +22,7 @@ Neste momento, não testaremos as funcionalidades de Pagamento e Saque, por esta
 
 ## 4. Abordagem dos Testes
 
-Para este projeto, todos testes serão 100% manuais, do tipo funcional, e adotaremos a abordagem baseada em riscos, priorizando funcionalidades críticas como, login, transferência e saldo.
+Para este projeto, todos os testes serão 100% manuais, do tipo funcional, e adotaremos a abordagem baseada em riscos, priorizando funcionalidades críticas como, login, transferência e extrato.
 
 Além disso, sempre que for possível, realizaremos testes exploratórios para melhor conhecimento das funcionalidades disponíveis e descoberta de bugs ao acaso.
 
@@ -36,8 +36,8 @@ Além disso, sempre que for possível, realizaremos testes exploratórios para m
 
 ### 5.2. Critérios de Saída
 
-- Todos os casos de teste criados devem estar executados.
-- Todos os defeitos críticos identificados devem estar resolvidos.
+- Todos os casos de teste criados devem ser executados.
+- Todos os defeitos críticos identificados devem ser resolvidos.
 
 ### 5.3. Critérios de Aceitação
 
