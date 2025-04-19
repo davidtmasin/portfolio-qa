@@ -56,7 +56,7 @@ Além disso, sempre que for possível, realizaremos testes exploratórios para m
 Recursos e configurações:
 
 - Desktop, Windows 11 e Chrome versão 135.0.7049.96
-- Asana para gestão das atividades
+- Jira para gestão das atividades
 - [Jam](https://jam.dev/docs) para relatórios de bugs
 - URL da aplicação: https://bugbank.netlify.app/
 
@@ -84,9 +84,9 @@ Recursos e configurações:
 | Fase                      | Início       | Fim         |
 |---------------------------|--------------|-------------|
 | Cenários e Casos de Teste | 19/04/2025   | 21/04/2025  |
-| Execução dos testes        | 22/04/2025   | 27/04/2025  |
-| Reporte de bugs            | 22/04/2025   | 27/04/2025  |
-| Revisão                    | 28/04/2025   | 30/04/2025  |
-| Resultados dos testes      | 29/04/2025   | 30/04/2025  |
+| Execução dos testes       | 22/04/2025   | 27/04/2025  |
+| Reporte de bugs           | 22/04/2025   | 27/04/2025  |
+| Revisão                   | 28/04/2025   | 30/04/2025  |
+| Resultados dos testes     | 29/04/2025   | 30/04/2025  |
 
 
