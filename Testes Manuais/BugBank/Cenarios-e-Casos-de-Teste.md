@@ -26,7 +26,7 @@
 | **DADO** que estamos na página de login da BugBank |
 | **E** preenchemos "qa@teste.com.br" no campo e-mail |
 | **E** preenchemos "qwe123" no campo senha |
-| **QUANDO** clicamos no botão "Acessar" |
+| **QUANDO** clicarmos no botão "Acessar" |
 | **ENTÃO** seremos redirecionados para a página inicial do cliente |
 
 | **Critérios de aceitação** |
@@ -47,7 +47,7 @@
 | **DADO** que estamos na página de login da BugBank |
 | **E** preenchemos "qa@teste.com.br" no campo e-mail |
 | **E** preenchemos "123456" no campo senha |
-| **QUANDO** clicamos no botão "Acessar" |
+| **QUANDO** clicarmos no botão "Acessar" |
 | **ENTÃO** veremos a mensagem de erro "Usuário ou senha inválido. Tente novamente ou verifique suas informações!"|
 
 | **Critérios de aceitação** |
@@ -68,7 +68,7 @@
 | **DADO** que estamos na página de login da BugBank |
 | **E** preenchemos "xablau@master.com.br" no campo e-mail |
 | **E** preenchemos "qwe123" no campo senha |
-| **QUANDO** clicamos no botão "Acessar" |
+| **QUANDO** clicarmos no botão "Acessar" |
 | **ENTÃO** veremos a mensagem de erro "Usuário ou senha inválido. Tente novamente ou verifique suas informações!"|
 
 | **Critérios de aceitação** |
@@ -89,7 +89,7 @@
 | **DADO** que estamos na página de login da BugBank |
 | **E** preenchemos "qa@" no campo e-mail |
 | **E** preenchemos "qwe123" no campo senha |
-| **QUANDO** clicamos no botão "Acessar" |
+| **QUANDO** clicarmos no botão "Acessar" |
 | **ENTÃO** veremos a mensagem "Formato inválido" logo abaixo do campo e-mail |
 
 | **Critérios de aceitação** |
@@ -108,7 +108,7 @@
 | **Passos** |
 | :--------- |
 | **DADO** que estamos na página de login da BugBank |
-| **QUANDO** clicamos no botão "Acessar" |
+| **QUANDO** clicarmos no botão "Acessar" |
 | **ENTÃO** veremos a mensagem "É campo obrigatório" logo abaixo dos campos e-mail e senha |
 
 | **Critérios de aceitação** |
@@ -138,7 +138,7 @@
 | **E**  preenchemos "Xablau Master" no campo Nome |
 | **E** preenchemos "qwerty123" no campo Senha |
 | **E** preenchemos "qwerty123" no campo Confirmação senha |
-| **QUANDO**  clicamos no botão "Cadastrar" |
+| **QUANDO**  clicarmos no botão "Cadastrar" |
 | **ENTÃO** veremos uma mensagem que a conta foi criada com sucesso |
 
 | **Critérios de aceitação** |
