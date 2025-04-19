@@ -1,7 +1,9 @@
 # 🧪 Plano de Testes
 
 **Software:** BugBank
+
 **QA responsável:** David Teixeira de Masin
+
 **Data:** 18/04/2025
 
 ## 1. Introdução
