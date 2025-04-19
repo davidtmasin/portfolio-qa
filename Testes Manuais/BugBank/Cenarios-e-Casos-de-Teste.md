@@ -10,7 +10,7 @@
 
 ## Cenário 01: Login do usuário
 
-**Descrição**: Validar o login do usuário em diferente situações.
+**Descrição**: Validar a funcionalidade de login em diferente situações.
 
 ### Caso de Teste 01: Login com as credenciais de e-mail e senha válidas
 | ID |  Descrição |
