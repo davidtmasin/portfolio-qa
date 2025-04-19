@@ -71,7 +71,7 @@ Recursos e configurações:
 
 ### Estimativa
 
-- **Fase 1: Cenários e Casos de Teste (3 dias):**
+- **Fase 1: (Cenários e Casos de Teste)[https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/3-Cenarios-e-Casos-de-Teste.md] (3 dias):**
   - Dias 1-3: Desenvolvimento e revisão dos casos de teste (Login, Cadastro, Transferência e Extrato)
 - **Fase 2: Execução dos Testes e Reporte de Bugs (5 dias):**
   - Dias 4-8: Execução dos casos de teste e reporte dos bugs
@@ -83,7 +83,7 @@ Recursos e configurações:
 
 | Fase                      | Início       | Fim         |
 |---------------------------|--------------|-------------|
-| Cenários e Casos de Teste | 19/04/2025   | 21/04/2025  |
+| (Cenários e Casos de Teste)[https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/3-Cenarios-e-Casos-de-Teste.md] | 19/04/2025   | 21/04/2025  |
 | Execução dos testes       | 22/04/2025   | 27/04/2025  |
 | Reporte de bugs           | 22/04/2025   | 27/04/2025  |
 | Revisão                   | 28/04/2025   | 30/04/2025  |
