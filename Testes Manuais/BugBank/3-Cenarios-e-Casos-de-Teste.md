@@ -135,7 +135,7 @@
 | **Passos** |
 | :--------- |
 | **DADO** que estamos na página de cadastro  |
-| **E** preenchemos "xablau@teste.com" no campo E-mail |
+| **E** preenchemos "xablau@teste.com.br" no campo E-mail |
 | **E**  preenchemos "Xablau Master" no campo Nome |
 | **E** preenchemos "qwerty123" no campo Senha |
 | **E** preenchemos "qwerty123" no campo Confirmação senha |
@@ -162,7 +162,7 @@
 | **Passos** |
 | :--------- |
 | **DADO** que estamos na página de cadastro  |
-| **E** preenchemos "xablau@teste.com" no campo E-mail |
+| **E** preenchemos "xablau@teste.com.br" no campo E-mail |
 | **E**  preenchemos "Xablau Master" no campo Nome |
 | **E** preenchemos "qwerty123" no campo Senha |
 | **E** preenchemos "qwerty123" no campo Confirmação senha |
@@ -310,6 +310,30 @@
 | **Critérios de aceitação** |
 | :--------- |
 |  O cadastro não deverá acontecer e a mensagem de alerta "As senhas não são iguais" precisa estar visível. |
+
+### Caso de Teste 09: Cadastrar novamente o mesmo usuário.
+
+| ID |  Descrição |
+| :--------- | :---------- |
+| C02-CT08 | Realizar o cadastro de um novo usuário repetindo as mesmas informações de um usuário cadastrado anteriormente. |
+
+| **Pré-condições** |
+| :--------- |
+| Reutilizar os mesmos dados de um usuário que já foi cadastrado anteriormente. |
+
+| **Passos** |
+| :--------- |
+| **DADO** que estamos na página de cadastro  |
+| **E** preenchemos "xablau@teste.com.br" no campo E-mail |
+| **E**  preenchemos "Xablau Master" no campo Nome |
+| **E** preenchemos "qwerty123" no campo Senha |
+| **E** preenchemos "qwerty123" no campo Confirmação senha |
+| **QUANDO**  clicarmos no botão "Cadastrar" |
+| **ENTÃO** veremos uma mensagem informando que o email já foi utilizado |
+
+| **Critérios de aceitação** |
+| :--------- |
+|  O cadastro não deverá acontecer e deve ser mostrada uma mensagem de que o email já foi utilizado em um cadastro anterior. |
 
 ---
 
