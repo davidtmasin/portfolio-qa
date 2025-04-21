@@ -57,6 +57,7 @@ Recursos e configurações:
 
 - Desktop, Windows 11 e Chrome versão 135.0.7049.96
 - Jira para gestão das atividades
+- [Qase](https://qase.io/) para gestão dos testes
 - [Jam](https://jam.dev/docs) para relatórios de bugs
 - URL da aplicação: https://bugbank.netlify.app/
 
