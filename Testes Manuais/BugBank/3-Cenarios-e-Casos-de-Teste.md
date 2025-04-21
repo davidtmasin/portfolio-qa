@@ -743,7 +743,7 @@
 | O registro da abertura de conta seguido de data, descrição e valor deve estar visível na página de extrato. |
 
 
-#### Caso de Teste 01: Checar registro de abertura de conta no extrato de uma conta criada sem saldo.
+#### Caso de Teste 02: Checar registro de abertura de conta no extrato de uma conta criada sem saldo.
 
 | ID |  Descrição |
 | :--------- | :---------- |
