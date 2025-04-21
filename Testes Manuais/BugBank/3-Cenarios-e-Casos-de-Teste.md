@@ -99,7 +99,7 @@
 ### Caso de Teste 05: Login sem fornecer e-mail e senha.
 | ID |  Descrição |
 | :--------- | :---------- |
-| C01-CT04 | O login será realizada sem digitar um e-mail e senha. |
+| C01-CT05 | O login será realizada sem digitar um e-mail e senha. |
 
 | **Pré-condições** |
 | :--------- |
@@ -114,6 +114,25 @@
 | **Critérios de aceitação** |
 | :--------- |
 | Deverá aparecer a mensagem "É campo obrigatório" logo abaixo dos campos e-mail e senha. |
+
+### Caso de Teste 06: Deve realizar o Logout com sucesso.
+| ID |  Descrição |
+| :--------- | :---------- |
+| C01-CT06 | O logout será realizado com sucesso ao clicar no botão Sair. |
+
+| **Pré-condições** |
+| :--------- |
+| Ter uma conta cadastrada. |
+
+| **Passos** |
+| :--------- |
+| **DADO** que estamos na página inicial da aplicação BugBank |
+| **QUANDO** clicarmos no botão "Sair" |
+| **ENTÃO** seremos redirecionados para a página de login |
+
+| **Critérios de aceitação** |
+| :--------- |
+| Deverá exibir a página de login logo após o clique no botão Sair. |
 
 ---
 
@@ -315,7 +334,7 @@
 
 | ID |  Descrição |
 | :--------- | :---------- |
-| C02-CT08 | Realizar o cadastro de um novo usuário repetindo as mesmas informações de um usuário cadastrado anteriormente. |
+| C02-CT09 | Realizar o cadastro de um novo usuário repetindo as mesmas informações de um usuário cadastrado anteriormente. |
 
 | **Pré-condições** |
 | :--------- |
@@ -349,19 +368,25 @@
 | **Pré-condições** |
 | :--------- |
 | Ter duas contas válidas no BugBank. |
-| A conta que irá fazer a transferência de R$100 precisa ter saldo suficiente na conta. |
+| A conta que irá fazer a transferência deve ter o saldo maior ou igual a R$100. |
 
 | **Passos** |
 | :--------- |
-| **DADO**  |
-| **E**  |
-| **E**  |
-| **QUANDO**  |
-| **ENTÃO**  |
+| **DADO** que estamos logados na conta que fará a transferência |
+| **E** acessamos o recurso de transferência |
+| **E** fornecemos os dados de número da conta e dígito |
+| **E** preenchemos "100" no campo Valor da transferência |
+| **E** preenchemos "transferência de teste" no campo Descrição |
+| **QUANDO** clicarmos no botão Transferir agora |
+| **ENTÃO** a mensagem de sucesso "Transferência realizada com sucesso" será apresentada na tela |
+| **E** a página deve nos redirecionar para a página de extrato da conta |
 
 | **Critérios de aceitação** |
 | :--------- |
-| . |
+| Deve haver uma mensagem de sucesso para a transferência realizada. |
+| O sistema deve redirecionar para página do extrato logo após esta transferência bem sucedida. |
+| O valor do saldo da conta deverá ter reduzido em R$100. |
+| O extrato da conta deve apresentar a informação de uma transferência de saída no valor de R$100 seguido da data que foi realizada e sua descrição. |
 
 ### Caso de Teste 02: Usar uma conta com saldo suficiente para transferir R$100 para uma conta inválida.
 | ID |  Descrição |
@@ -558,7 +583,7 @@
 
 **Descrição**: Validar a funcionalidade de extrato da conta mediante às transações realizadas.
 
-### Caso de Teste 01: .
+### Caso de Teste 01: Verificar no extrato da conta recém-criada se há o registro relacionado à abertura.
 | ID |  Descrição |
 | :--------- | :---------- |
 | C04-CT01 | . |
@@ -579,7 +604,7 @@
 | :--------- |
 | . |
 
-### Caso de Teste 02: .
+### Caso de Teste 02: Verificar no extrato da conta se as transferência aparecem com o comentário informado.
 | ID |  Descrição |
 | :--------- | :---------- |
 | C04-CT02 | . |
@@ -600,7 +625,7 @@
 | :--------- |
 | . |
 
-### Caso de Teste 03: .
+### Caso de Teste 03: Verificar se uma transferência de saída no valor de R$100 está visível no extrato com o valor em vermelho e sinal negativo.
 | ID |  Descrição |
 | :--------- | :---------- |
 | C04-CT03 | . |
@@ -621,136 +646,10 @@
 | :--------- |
 | . |
 
-### Caso de Teste 04: .
+### Caso de Teste 04: Verificar se uma transferência de entrada no valor de R$100 está visível no extrato com o valor em verde.
 | ID |  Descrição |
 | :--------- | :---------- |
 | C04-CT04 | . |
-
-| **Pré-condições** |
-| :--------- |
-| . |
-
-| **Passos** |
-| :--------- |
-| **DADO**  |
-| **E**  |
-| **E**  |
-| **QUANDO**  |
-| **ENTÃO**  |
-
-| **Critérios de aceitação** |
-| :--------- |
-| . |
-
-### Caso de Teste 05: .
-| ID |  Descrição |
-| :--------- | :---------- |
-| C04-CT05 | . |
-
-| **Pré-condições** |
-| :--------- |
-| . |
-
-| **Passos** |
-| :--------- |
-| **DADO**  |
-| **E**  |
-| **E**  |
-| **QUANDO**  |
-| **ENTÃO**  |
-
-| **Critérios de aceitação** |
-| :--------- |
-| . |
-
-### Caso de Teste 06: .
-| ID |  Descrição |
-| :--------- | :---------- |
-| C04-CT06 | . |
-
-| **Pré-condições** |
-| :--------- |
-| . |
-
-| **Passos** |
-| :--------- |
-| **DADO**  |
-| **E**  |
-| **E**  |
-| **QUANDO**  |
-| **ENTÃO**  |
-
-| **Critérios de aceitação** |
-| :--------- |
-| . |
-
-### Caso de Teste 07: .
-| ID |  Descrição |
-| :--------- | :---------- |
-| C04-CT07 | . |
-
-| **Pré-condições** |
-| :--------- |
-| . |
-
-| **Passos** |
-| :--------- |
-| **DADO**  |
-| **E**  |
-| **E**  |
-| **QUANDO**  |
-| **ENTÃO**  |
-
-| **Critérios de aceitação** |
-| :--------- |
-| . |
-
-### Caso de Teste 08: .
-| ID |  Descrição |
-| :--------- | :---------- |
-| C04-CT08 | . |
-
-| **Pré-condições** |
-| :--------- |
-| . |
-
-| **Passos** |
-| :--------- |
-| **DADO**  |
-| **E**  |
-| **E**  |
-| **QUANDO**  |
-| **ENTÃO**  |
-
-| **Critérios de aceitação** |
-| :--------- |
-| . |
-
-### Caso de Teste 09: .
-| ID |  Descrição |
-| :--------- | :---------- |
-| C04-CT09 | . |
-
-| **Pré-condições** |
-| :--------- |
-| . |
-
-| **Passos** |
-| :--------- |
-| **DADO**  |
-| **E**  |
-| **E**  |
-| **QUANDO**  |
-| **ENTÃO**  |
-
-| **Critérios de aceitação** |
-| :--------- |
-| . |
-
-### Caso de Teste 10: .
-| ID |  Descrição |
-| :--------- | :---------- |
-| C04-CT10 | . |
 
 | **Pré-condições** |
 | :--------- |
