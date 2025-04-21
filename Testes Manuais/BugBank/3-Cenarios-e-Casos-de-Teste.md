@@ -14,12 +14,57 @@
 
 ## Sumário
 
-<ul>
-    <li><a href="#c01">Cenário 01: Login na plataforma</a></li>
-    <li><a href="#c02">Cenário 02: Cadastro de usuário</a></li>
-    <li><a href="#c03">Cenário 03: Transaferência de valores</a></li>
-    <li><a href="#c04">Cenário 04: Extrato da conta</a></li>
-</ul>
+<details>
+    <summary><a href="#c01">Cenário 01: Login na plataforma</a></summary>
+
+- Caso de Teste 01: Login com as credenciais de e-mail e senha válidas
+- Caso de Teste 02: Login com senha incorreta
+- Caso de Teste 03: Login com email não cadastrado
+- Caso de Teste 04: Login com email em formato inválido
+- Caso de Teste 05: Login sem fornecer e-mail e senha
+- Caso de Teste 06: Deve realizar o Logout com sucesso
+</details>
+
+<details>
+    <summary><a href="#c02">Cenário 02: Cadastro de usuário</a></summary>
+
+- Caso de Teste 01: Cadastrar um novo usuário com sucesso (sem saldo)
+- Caso de Teste 02: Cadastrar um novo usuário com sucesso (com saldo)
+- Caso de Teste 03: Cadastrar sem fornecer os dados obrigatórios
+- Caso de Teste 04: Cadastrar sem fornecer a informação de Nome
+- Caso de Teste 05: Cadastrar sem fornecer a informação de Email
+- Caso de Teste 06: Cadastrar sem fornecer a informação de Senha
+- Caso de Teste 07: Cadastrar sem fornecer a informação de Confirmação de Senha
+- Caso de Teste 08: Cadastrar com divergência nos campos de Senha e Confirmação de Senha
+- Caso de Teste 09: Cadastrar novamente o mesmo usuário
+</details>
+
+<details>
+    <summary><a href="#c03">Cenário de Teste 03: Transferência de valores</a></summary>
+
+- Caso de Teste 01: Usar uma conta com saldo suficiente para transferir R$100 para uma conta válida
+- Caso de Teste 02: Usar uma conta com saldo suficiente para transferir R$100 para uma conta inválida 
+- Caso de Teste 03: Transferir dinheiro para uma conta válida, estando com saldo insuficiente
+- Caso de Teste 04: Transferir dinheiro para uma conta inválida, estando com saldo insuficiente
+- Caso de Teste 05: Realizar uma transferência com valor zero
+- Caso de Teste 06: Realizar uma transferência com valor menor que zero
+- Caso de Teste 07: Realizar uma transferência sem preencher o campo obrigatório de descrição
+- Caso de Teste 08: Realizar uma transferência sem preencher a conta de destino
+- Caso de Teste 09: Realizar uma transferência sem fornecer o valor
+- Caso de Teste 10: Realizar transferência sem fornecer todas as informações 
+</details>
+
+<details>
+    <summary><a href="#c04">Cenário de Teste 04: Extrato da conta</a></summary>
+
+- Caso de Teste 01: Checar registro de abertura de conta no extrato de uma conta criada com saldo
+- Caso de Teste 02: Checar registro de abertura de conta no extrato de uma conta criada sem saldo
+- Caso de Teste 03: Verificar no extrato se uma transação de entrada está vindo com a descrição
+- Caso de Teste 04: Verificar no extrato se uma transação de saída está vindo com a descrição
+- Caso de Teste 05: Verificar se uma transação de saída está visível no extrato com o valor em vermelho e um sinal negativo
+- Caso de Teste 06: Verificar se uma transação de entrada no valor de R$100 está visível no extrato com o valor em verde  
+</details>
+
 
 ---
 
