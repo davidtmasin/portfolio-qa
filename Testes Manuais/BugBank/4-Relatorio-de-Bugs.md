@@ -12,19 +12,20 @@
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
-| BUG-001 |               |
+| BUG-001 | Quando o campo Nome fica vazio e ignoramos o seu preenchimento, deveria aparecer a mensagem "É campo obrigatório" porém, isso não acontece. |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
-|         Baixa         |           Baixa            |    Novo    |
+|         Baixa         |           Baixa            |    Aberto  |
 
 | **Passo a passo para simular o bug** |
 | ------------------------------------ |
-| 1.                                   |
+| 1. Acessar o formulário de cadastro  |
+| 2. Preencher todos os campos, exceto o Nome. |
 
 | **Comportamento Esperado** | **Comportamento Obtido** |
 | :------------------------: | :----------------------: |
-|             .              |            .             |
+| Deve aparecer a mensagem "É campo obrigatório" logo abaixo do campo Nome. | Não houve a apresentação da mensagem de alerta abaixo do campo Nome. |
 
 | **Ambiente**             |
 | ------------------------ |
@@ -39,7 +40,11 @@
 
 |  **Evidência(s)**   |
 | :-----------------: |
-| <img src=".medias"> |
+|  <img src="/.medias/media-bug001.png"> |
+| <video width="640" height="360" controls> <source src="/.medias/videos/bug001-C02-CT03.webm" type="video/webm"> </video> |
+
+
+
 
 ---
 
