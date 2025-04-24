@@ -40,13 +40,11 @@
 
 |  **Evidência(s)**   |
 | :-----------------: |
-|  <img src="/.medias/media-bug001.png"> |
-| <video width="640" height="360" controls> <source src="/.medias/videos/bug001-C02-CT03.webm" type="video/webm"> </video> |
-
-
+| [Screenshot](/.medias/media-bug001.png) e [Vídeo](/.medias/videos/bug001-C02-CT03.webm).|
 
 
 ---
+
 
 #### Bug 02: Título do Bug.
 
