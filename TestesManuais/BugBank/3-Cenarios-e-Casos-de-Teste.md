@@ -626,7 +626,7 @@
 | **DADO** que estamos logados na conta que fará a transferência |
 | **E** acessamos o recurso de transferência |
 | **E** fornecemos os dados de número da conta e dígito |
-| **E** preenchemos "-1" no campo Valor da transferência |
+| **E** preenchemos "10" no campo Valor da transferência |
 | **QUANDO** clicarmos no botão Transferir agora |
 | **ENTÃO** deverá ser exibida uma mensagem de alerta informando que o campo Descrição deve ser preenchido |
 
