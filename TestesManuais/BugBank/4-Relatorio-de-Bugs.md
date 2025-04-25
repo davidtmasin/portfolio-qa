@@ -277,7 +277,7 @@
 ---
 
 
-#### Bug 08: Título do Bug.
+#### Bug 08: Redirecionamento para a página de Extrato não ocorre logo após realizar uma transferência.
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
@@ -314,7 +314,7 @@
 ---
 
 
-#### Bug 09: Título do Bug.
+#### Bug 09: Após a transferência, os campos preenchidos não são limpos.
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
@@ -351,7 +351,7 @@
 ---
 
 
-#### Bug 10: Título do Bug.
+#### Bug 10: Não houve crítica na ausência do preenchimento do campo Descrição no formulário de transferência.
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
@@ -388,11 +388,85 @@
 ---
 
 
-#### Bug 11: Título do Bug.
+#### Bug 11: A transferência está ocorrendo quando não fornecemos uma conta de destino.
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
 | BUG-011 | A              |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Baixa         |           Baixa            |    Aberto  |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1.                                   |
+
+| **Comportamento Esperado** | **Comportamento Obtido** |
+| :------------------------: | :----------------------: |
+|             .              |            .             |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Win11.       |
+| Chrome v.136.            |
+| BugBank v1.1.2           |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+|             .              |               .               |
+
+|  **Evidência(s)**   |
+| :-----------------: |
+| <img src=".medias"> |
+
+
+---
+
+
+#### Bug 12: Título do bug.
+
+| **ID**  | **Descrição** |
+| ------- | ------------- |
+| BUG-012 | A              |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Baixa         |           Baixa            |    Aberto  |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1.                                   |
+
+| **Comportamento Esperado** | **Comportamento Obtido** |
+| :------------------------: | :----------------------: |
+|             .              |            .             |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Win11.       |
+| Chrome v.136.            |
+| BugBank v1.1.2           |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+|             .              |               .               |
+
+|  **Evidência(s)**   |
+| :-----------------: |
+| <img src=".medias"> |
+
+
+---
+
+
+#### Bug 13: Título do bug.
+
+| **ID**  | **Descrição** |
+| ------- | ------------- |
+| BUG-013 | A              |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
