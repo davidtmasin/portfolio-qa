@@ -163,11 +163,125 @@
 ---
 
 
-#### Bug 05: Título do Bug.
+#### Bug 05: Não há nenhuma crítica pelo sistema ao cadastrar uma nova conta com as mesmas informações.
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
-| BUG-005 | A              |
+| BUG-005 | Ao cadastrar duas contas com as mesmas informações, o sistema não apresenta nenhuma crítica, permite o cadastro e ainda gera a numeração e dígito da conta. |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Crítica       |           Alta             |    Aberto  |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1. Realize um cadastro do zero com os seguintes dados: "teste@email.com", "Teste QA", "qwerty123", "qwerty123". |
+| 2. Faça um novo cadastro repetindo todas as informações do passo 1. |
+
+| **Comportamento Esperado** | **Comportamento Obtido** |
+| :------------------------: | :----------------------: |
+| Não deve permitir cadastro duplicado.  | Permitiu o cadastro duplicado e ainda gerou número e dígito da conta diferentes. |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Win11.       |
+| Chrome v.136.            |
+| BugBank v1.1.2           |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+| Cadastro de usuário. | C02-CT09: Cadastrar novamente o mesmo usuário. |
+
+|  **Evidência(s)**   |
+| :-----------------: |
+| [Video](/.medias/videos/bug005-C02-CT09.webm) |
+
+
+---
+
+
+#### Bug 06: Os campos do formulário de cadastro não são limpos após o envio.
+
+| **ID**  | **Descrição** |
+| ------- | ------------- |
+| BUG-006 | Após cadastrar um novo usuário e retornar para a página de cadastro, todas as informações preenchidas anteriormente, permanecem nos campos. |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Média         |           Alta             |    Aberto  |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| Realizar um novo cadastro de usuário. |
+| Voltar para à página de cadastro. |
+
+| **Comportamento Esperado** | **Comportamento Obtido** |
+| :------------------------: | :----------------------: |
+| Após o envio do formulário de cadastro, os campos devem ficar vazios. | Os campos do formulário não estão vazios, permanecem com os mesmos dados utilizados. |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Win11.       |
+| Chrome v.136.            |
+| BugBank v1.1.2           |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+| Cadastro de usuário. | C02-CT09: Cadastrar novamente o mesmo usuário. |
+
+|  **Evidência(s)**   |
+| :-----------------: |
+| [Video](/.medias/videos/bug006-C02-CT09.webm) |
+
+
+---
+
+
+#### Bug 07: Login de um cadastro duplicado só é válido para última conta criada.
+
+| **ID**  | **Descrição** |
+| ------- | ------------- |
+| BUG-007 | Após a realização de cadastros duplicados, o login só funciona para a última conta. |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Crítica       |           Alta            |    Aberto  |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1. Realizar pelo menos o cadastro de duas contas iguais. |
+| 2. Efetuar o login com as credencias das contas duplicadas. |
+
+| **Comportamento Esperado** | **Comportamento Obtido** |
+| :------------------------: | :----------------------: |
+| Não deveria haver nem o cadastro de contas duplicadas para evitar a problemática do login. | O login funciona apenas para a última conta duplicada cadastrada. |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Win11.       |
+| Chrome v.136.            |
+| BugBank v1.1.2           |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+| Cadastro de usuário. | C02-CT09: Cadastrar novamente o mesmo usuário. |
+
+|  **Evidência(s)**   |
+| :-----------------: |
+| [Video](/.medias/videos/bug007-C02-CT09.webm) |
+
+
+---
+
+
+#### Bug 08: Título do Bug.
+
+| **ID**  | **Descrição** |
+| ------- | ------------- |
+| BUG-008 | A              |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
@@ -200,11 +314,85 @@
 ---
 
 
-#### Bug 06: Título do Bug.
+#### Bug 09: Título do Bug.
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
-| BUG-006 | A              |
+| BUG-009 | A              |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Baixa         |           Baixa            |    Aberto  |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1.                                   |
+
+| **Comportamento Esperado** | **Comportamento Obtido** |
+| :------------------------: | :----------------------: |
+|             .              |            .             |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Win11.       |
+| Chrome v.136.            |
+| BugBank v1.1.2           |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+|             .              |               .               |
+
+|  **Evidência(s)**   |
+| :-----------------: |
+| <img src=".medias"> |
+
+
+---
+
+
+#### Bug 10: Título do Bug.
+
+| **ID**  | **Descrição** |
+| ------- | ------------- |
+| BUG-010 | A              |
+
+| **Severidade do Bug** | **Prioridade de Correção** | **Status** |
+| :-------------------: | :------------------------: | :--------: |
+|         Baixa         |           Baixa            |    Aberto  |
+
+| **Passo a passo para simular o bug** |
+| ------------------------------------ |
+| 1.                                   |
+
+| **Comportamento Esperado** | **Comportamento Obtido** |
+| :------------------------: | :----------------------: |
+|             .              |            .             |
+
+| **Ambiente**             |
+| ------------------------ |
+| Ambiente de homologação. |
+| Desktop com Win11.       |
+| Chrome v.136.            |
+| BugBank v1.1.2           |
+
+| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
+| :------------------------: | :---------------------------: |
+|             .              |               .               |
+
+|  **Evidência(s)**   |
+| :-----------------: |
+| <img src=".medias"> |
+
+
+---
+
+
+#### Bug 11: Título do Bug.
+
+| **ID**  | **Descrição** |
+| ------- | ------------- |
+| BUG-011 | A              |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
