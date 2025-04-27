@@ -373,7 +373,7 @@
 
 | **ID**  | **Descrição** |
 | ------- | ------------- |
-| BUG-011 | A transferência é realizada com sucesso, mesmo sem preencher as informações da conta de destino. |
+| BUG-011 | A transferência é realizada com sucesso, mesmo sem preencher as informações da conta de destino. O problema apresenta duas ocorrências: Na primeira, é apresentada a mensagem "Não pode transferir pra mesmo conta". É como se o sistema automaticamente fizesse a transferência sempre para primeira conta cadastrada quando não há registro dos dados de número e dígito. E na segunda, quando foi usado uma nova conta, em seguida, feito o login e realizado uma transferência sem informar a conta de destino, o sistema automaticamente transferiu para a primeira conta que cadastrada. |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
@@ -385,7 +385,7 @@
 
 | **Comportamento Esperado** | **Comportamento Obtido** |
 | :------------------------: | :----------------------: |
-| A transferência não deve ocorrer e o sistema deve criticar pois, não houve o preenchimento dos campos Número da conta e Dígito. | A transferência foi realizada com sucesso e o saldo da conta foi subtraído no valor que foi indicado para a transferência. |
+| A transferência não deve ocorrer e o sistema deve criticar pois, não houve o preenchimento dos campos Número da conta e Dígito. | A transferência foi realizada com sucesso e o saldo da conta foi subtraído no valor que foi indicado para a transferência. O sistema está direcionando o envio da transferência sem número e dígito para a primeira conta cadastrada no sistema. |
 
 | **Ambiente**             |
 | ------------------------ |
@@ -400,7 +400,7 @@
 
 |  **Evidência(s)**   |
 | :-----------------: |
-| [Video](/.medias/videos/bug011-C03-CT08.webm) | 
+| [Screenshot](/.medias/media-bug011.png) e [Video](/.medias/videos/bug011-C03-CT08.webm) | 
 
 ---
 
