@@ -551,7 +551,7 @@
 | **DADO** que estamos logados na conta que fará a transferência |
 | **E** checamos na página inicial que o saldo é inferior a R$1001 |
 | **E** acessamos o recurso de transferência |
-| **E** fornecemos os dados de número da conta e dígito |
+| **E** fornecemos os dados inválidos de número da conta e dígito |
 | **E** preenchemos "1001" no campo Valor da transferência |
 | **E** preenchemos "teste de transferência com saldo insuficiente" no campo Descrição |
 | **QUANDO** clicarmos no botão Transferir agora |
@@ -594,6 +594,10 @@
 | ID |  Descrição |
 | :--------- | :---------- |
 | C03-CT06 | Deve haver uma tentativa de transferência inferior a R$0,00 para uma conta qualquer do BugBank. |
+
+| **Pré-condições** |
+| :--------- |
+| Usar uma conta válida para efetuar uma transferência negativa. |
 
 | **Passos** |
 | :--------- |
@@ -734,7 +738,7 @@
 | :--------- |
 | **DADO** que estamos logados na conta nova com saldo |
 | **QUANDO**  acessarmos a página de extrato|
-| **ENTÃO** veremos no extrato o registro da abertura de conta |
+| **ENTÃO** veremos no extrato, o registro da abertura de conta |
 |  **E** o valor de "R$1000,00" associado a este registro |
 |  **E** a descrição "Saldo adicionado ao abrir conta" associado a este registro |
 
@@ -824,8 +828,7 @@
 
 | **Passos** |
 | :--------- |
-| **DADO** que estamos realizando uma transferência |
-| **E** o valor enviado foi de "R$100" |
+| **DADO** que estamos realizando uma transferência de "R$100"|
 | **QUANDO** acessarmos o extrato da conta |
 | **ENTÃO** veremos o registro dessa transação |
 | **E** o valor estará em vermelho |
@@ -849,8 +852,7 @@
 
 | **Passos** |
 | :--------- |
-| **DADO** que foi realizada uma transferência para nossa conta |
-| **E** o valor recebido foi de "R$100" |
+| **DADO** que foi realizada uma transferência de "R$100" para nossa conta |
 | **QUANDO** acessarmos o extrato da conta |
 | **ENTÃO** veremos o registro dessa transação |
 | **E** o valor estará em verde |
