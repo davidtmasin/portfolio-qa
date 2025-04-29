@@ -26,7 +26,6 @@ Para este projeto, todos os testes serão 100% manuais, do tipo funcional, e ado
 
 Além disso, sempre que for possível, realizaremos testes exploratórios para melhor conhecimento das funcionalidades disponíveis e descoberta de bugs ao acaso.
 
-
 ## 5. Critérios dos Testes
 
 ### 5.1. Critérios de Entrada
@@ -63,10 +62,10 @@ Recursos e configurações:
 
 ## 8. Riscos
 
-| Risco | Mitigação |
-|-------|-----------|
-| Defeitos críticos descobertos tardiamente | Priorizar testes em funcionalidades críticas |
-| Falha na comunicação entre equipes | Realizar reuniões diárias e usar ferramentas de gestão como Jira ou Asana |
+| Risco                                     | Mitigação                                                                 |
+| ----------------------------------------- | ------------------------------------------------------------------------- |
+| Defeitos críticos descobertos tardiamente | Priorizar testes em funcionalidades críticas                              |
+| Falha na comunicação entre equipes        | Realizar reuniões diárias e usar ferramentas de gestão como Jira ou Asana |
 
 ## 9. Cronograma
 
@@ -75,19 +74,17 @@ Recursos e configurações:
 - **Fase 1: [Cenários e Casos de Teste](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/3-Cenarios-e-Casos-de-Teste.md) (3 dias):**
   - Dias 1-3: Desenvolvimento e revisão dos casos de teste (Login, Cadastro, Transferência e Extrato)
 - **Fase 2: Execução dos Testes e Reporte de Bugs (5 dias):**
-  - Dias 4-8: Execução dos casos de teste e reporte dos bugs
+  - Dias 4-8: Execução dos casos de teste e relatório de bugs
 - **Fase 3: Revisão e Documentação Final (3 dias):**
   - Dia 9-11: Revisão dos resultados e cobertura dos testes
   - Dia 10-11: Elaboração dos Resultados e documentação final
 
 ### Tabela
 
-| Fase                      | Início       | Fim         |
-|---------------------------|--------------|-------------|
-| [Cenários e Casos de Teste](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/3-Cenarios-e-Casos-de-Teste.md) | 19/04/2025   | 21/04/2025  |
-| Execução dos testes       | 22/04/2025   | 27/04/2025  |
-| Reporte de bugs           | 22/04/2025   | 27/04/2025  |
-| Revisão                   | 28/04/2025   | 30/04/2025  |
-| Resultados dos testes     | 29/04/2025   | 30/04/2025  |
-
-
+| Fase                                                                                                                                       | Início     | Fim        |
+| ------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- |
+| [Cenários e Casos de Teste](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/3-Cenarios-e-Casos-de-Teste.md) | 19/04/2025 | 21/04/2025 |
+| Execução dos testes                                                                                                                        | 22/04/2025 | 27/04/2025 |
+| [Relatório de bugs](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/4-Relatorio-de-Bugs.md)                 | 22/04/2025 | 27/04/2025 |
+| Revisão                                                                                                                                    | 28/04/2025 | 30/04/2025 |
+| Resultados dos testes                                                                                                                      | 29/04/2025 | 30/04/2025 |
