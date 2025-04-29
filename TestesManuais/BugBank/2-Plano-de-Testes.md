@@ -71,9 +71,9 @@ Recursos e configurações:
 
 ### Estimativa
 
-- **Fase 1: [Cenários e Casos de Teste](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/3-Cenarios-e-Casos-de-Teste.md) (3 dias):**
+- **Fase 1: Cenários e Casos de Teste (3 dias):**
   - Dias 1-3: Desenvolvimento e revisão dos casos de teste (Login, Cadastro, Transferência e Extrato)
-- **Fase 2: Execução dos Testes e Reporte de Bugs (5 dias):**
+- **Fase 2: Execução dos Testes e Relatório de Bugs (5 dias):**
   - Dias 4-8: Execução dos casos de teste e relatório de bugs
 - **Fase 3: Revisão e Documentação Final (3 dias):**
   - Dia 9-11: Revisão dos resultados e cobertura dos testes
