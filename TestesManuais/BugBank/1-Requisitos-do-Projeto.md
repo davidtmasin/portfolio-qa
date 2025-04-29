@@ -7,12 +7,14 @@ Faça transferências e pagamentos com bugs e pratique testes com sucesso em um 
 _A aplicação não conta com um banco de dados, todas as informações são armazenadas em **memória local**._
 
 ## 1. Links úteis
+
 - **Site**: https://bugbank.netlify.app/
 - **Repositório**: https://github.com/jhonatasmatos/bugbank-ui
 
-
 ## 2. Funcionalidades
+
 ### 2.1 Login
+
 - Email e Senha são campos obrigatórios.
 
 - Tentativa de acesso sem preencher campos obrigatórios deve exibir a mensagem "Usuário e senha precisam ser preenchidos".
@@ -22,6 +24,7 @@ _A aplicação não conta com um banco de dados, todas as informações são arm
 - Usuários válidos e cadastros são direcionados para a home.
 
 ### 2.2 Cadastro
+
 - Os campos Nome, Email, Senha e Confirmação de senha são de preenchimento obrigatório
 
 - Tentativa de cadastro sem preencher nome deve visualizar a mensagem "Nome não pode ser vazio"
@@ -41,6 +44,7 @@ _A aplicação não conta com um banco de dados, todas as informações são arm
 - Cadastrar conta com sucesso deve exibir número da conta criada
 
 ### 2.3 Transferência
+
 - Só é permitido transferência para contas válidas
 
 - Só é permitido transferência quando saldo é igual ou maior que valor para transferir
@@ -58,9 +62,11 @@ _A aplicação não conta com um banco de dados, todas as informações são arm
 - Ao realizar uma transferência com sucesso deve ser redirecionado para o extrato
 
 ### 2.4 Pagamento
+
 - Em desenvolvimento
 
 ### 2.5 Extrato
+
 - Deve exibir o saldo disponível no momento
 
 - Cada transação deve exibir data que foi realizada, tipo da transação (Abertura de conta / Transferência enviada / Transferência recebida)
@@ -72,4 +78,5 @@ _A aplicação não conta com um banco de dados, todas as informações são arm
 - Transações sem comentário devem exibir (-)
 
 ### 2.6 Saque
+
 - Em desenvolvimento

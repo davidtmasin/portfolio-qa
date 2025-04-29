@@ -1,6 +1,6 @@
 # Relatório de Bugs
 
-**Software:** Sistema XYZ
+**Software:** BugBank
 
 **QA responsável:** David Teixeira de Masin
 
@@ -265,20 +265,20 @@
 
 #### Bug 08: Redirecionamento para a página de Extrato não ocorre logo após realizar uma transferência.
 
-| **ID**  | **Descrição** |
-| ------- | ------------- |
+| **ID**  | **Descrição**                                                                                                                      |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | BUG-008 | No processo de transferência de valores, foi observado que após a finalização, não há o redirecionamento para a página de Extrato. |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
 |         Baixa         |           Baixa            |   Aberto   |
 
-| **Passo a passo para simular o bug** |
-| ------------------------------------ |
+| **Passo a passo para simular o bug**             |
+| ------------------------------------------------ |
 | 1. Realizar o fluxo de transferência de valores. |
 
-| **Comportamento Esperado** | **Comportamento Obtido** |
-| :------------------------: | :----------------------: |
+|                                    **Comportamento Esperado**                                    |        **Comportamento Obtido**        |
+| :----------------------------------------------------------------------------------------------: | :------------------------------------: |
 | Deve ocorrer o redirecionamento para a página de Extrato, logo após a transferência com sucesso. | Permaneceu na página de Transferência. |
 
 | **Ambiente**             |
@@ -288,32 +288,32 @@
 | Chrome v.136.            |
 | BugBank v1.1.2           |
 
-| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
-| :------------------------: | :---------------------------: |
+| **Funcionalidade Afetada** |                               **Caso de Teste Relacionado**                                |
+| :------------------------: | :----------------------------------------------------------------------------------------: |
 | Transferência de valores.  | C03-CT01: Usar uma conta com saldo suficiente para transferir R$100 para uma conta válida. |
 
-|  **Evidência(s)**   |
-| :-----------------: |
+|               **Evidência(s)**                |
+| :-------------------------------------------: |
 | [Video](/.medias/videos/bug008-C03-CT01.webm) |
 
 ---
 
 #### Bug 09: Após a transferência, os campos preenchidos não são limpos.
 
-| **ID**  | **Descrição** |
-| ------- | ------------- |
+| **ID**  | **Descrição**                                                                                                          |
+| ------- | ---------------------------------------------------------------------------------------------------------------------- |
 | BUG-009 | Com uma transferência realizada com sucesso, além de não haver o redirecionamento da página, os campos não são limpos. |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
 |         Baixa         |           Baixa            |   Aberto   |
 
-| **Passo a passo para simular o bug** |
-| ------------------------------------ |
+| **Passo a passo para simular o bug**                                                                            |
+| --------------------------------------------------------------------------------------------------------------- |
 | 1. Efetuar uma transferência de qualquer valor, o importante é que no final, apresente uma mensagem de sucesso. |
 
-| **Comportamento Esperado** | **Comportamento Obtido** |
-| :------------------------: | :----------------------: |
+| **Comportamento Esperado**  |           **Comportamento Obtido**            |
+| :-------------------------: | :-------------------------------------------: |
 | Os campos devem ser limpos. | Os dados preenchidos anteriormente se mantém. |
 
 | **Ambiente**             |
@@ -323,33 +323,33 @@
 | Chrome v.136.            |
 | BugBank v1.1.2           |
 
-| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
-| :------------------------: | :---------------------------: |
-| Transferência de valores. | C03-CT01: Usar uma conta com saldo suficiente para transferir R$100 para uma conta válida. |
+| **Funcionalidade Afetada** |                               **Caso de Teste Relacionado**                                |
+| :------------------------: | :----------------------------------------------------------------------------------------: |
+| Transferência de valores.  | C03-CT01: Usar uma conta com saldo suficiente para transferir R$100 para uma conta válida. |
 
-|  **Evidência(s)**   |
-| :-----------------: |
+|               **Evidência(s)**                |
+| :-------------------------------------------: |
 | [Video](/.medias/videos/bug009-C03-CT01.webm) |
 
 ---
 
 #### Bug 10: Não houve crítica na ausência do preenchimento do campo Descrição no formulário de transferência.
 
-| **ID**  | **Descrição** |
-| ------- | ------------- |
-| BUG-010 | Ao ignorar o preenchimento do campo Descrição, o sistema sequer criticou, a transferência foi realizada e no extrato, a descrição veio representada pelo caractere hífen (-). |             |
+| **ID**  | **Descrição**                                                                                                                                                                 |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --- |
+| BUG-010 | Ao ignorar o preenchimento do campo Descrição, o sistema sequer criticou, a transferência foi realizada e no extrato, a descrição veio representada pelo caractere hífen (-). |     |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
 |         Média         |           Média            |   Aberto   |
 
-| **Passo a passo para simular o bug** |
-| ------------------------------------ |
+| **Passo a passo para simular o bug**                                                    |
+| --------------------------------------------------------------------------------------- |
 | 1. Efetuar uma transferência de qualquer valor, ignorando o preenchimento da descrição. |
-| 2. Verificar no extrato, a transferência realizada. |
+| 2. Verificar no extrato, a transferência realizada.                                     |
 
-| **Comportamento Esperado** | **Comportamento Obtido** |
-| :------------------------: | :----------------------: |
+|                                           **Comportamento Esperado**                                            |                              **Comportamento Obtido**                               |
+| :-------------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
 | A transferência não deve ocorrer e o sistema deverá criticar pela ausência de preenchimento no campo Descrição. | O sistema permitiu a transferência e no extrato, a descrição está com um hífen (-). |
 
 | **Ambiente**             |
@@ -359,32 +359,32 @@
 | Chrome v.136.            |
 | BugBank v1.1.2           |
 
-| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
-| :------------------------: | :---------------------------: |
-| Transferência de valores. | C03-CT07: Realizar uma transferência sem preencher o campo obrigatório de descrição. |
+| **Funcionalidade Afetada** |                            **Caso de Teste Relacionado**                             |
+| :------------------------: | :----------------------------------------------------------------------------------: |
+| Transferência de valores.  | C03-CT07: Realizar uma transferência sem preencher o campo obrigatório de descrição. |
 
-|  **Evidência(s)**   |
-| :-----------------: |
+|               **Evidência(s)**                |
+| :-------------------------------------------: |
 | [Video](/.medias/videos/bug010-C03-CT07.webm) |
 
 ---
 
 #### Bug 11: A transferência está ocorrendo quando não fornecemos uma conta de destino.
 
-| **ID**  | **Descrição** |
-| ------- | ------------- |
+| **ID**  | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BUG-011 | A transferência é realizada com sucesso, mesmo sem preencher as informações da conta de destino. O problema apresenta duas ocorrências: Na primeira, é apresentada a mensagem "Não pode transferir pra mesmo conta". É como se o sistema automaticamente fizesse a transferência sempre para primeira conta cadastrada quando não há registro dos dados de número e dígito. E na segunda, quando foi usado uma nova conta, em seguida, feito o login e realizado uma transferência sem informar a conta de destino, o sistema automaticamente transferiu para a primeira conta que cadastrada. |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
-|         Crítica         |           Alta            |   Aberto   |
+|        Crítica        |            Alta            |   Aberto   |
 
-| **Passo a passo para simular o bug** |
-| ------------------------------------ |
+| **Passo a passo para simular o bug**                                                                        |
+| ----------------------------------------------------------------------------------------------------------- |
 | 1. Efetuar uma transferência de uma valor qualquer sem efetuar o preenchimento do Número da conta e Dígito. |
 
-| **Comportamento Esperado** | **Comportamento Obtido** |
-| :------------------------: | :----------------------: |
+|                                                   **Comportamento Esperado**                                                    |                                                                                                             **Comportamento Obtido**                                                                                                             |
+| :-----------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | A transferência não deve ocorrer e o sistema deve criticar pois, não houve o preenchimento dos campos Número da conta e Dígito. | A transferência foi realizada com sucesso e o saldo da conta foi subtraído no valor que foi indicado para a transferência. O sistema está direcionando o envio da transferência sem número e dígito para a primeira conta cadastrada no sistema. |
 
 | **Ambiente**             |
@@ -394,32 +394,32 @@
 | Chrome v.136.            |
 | BugBank v1.1.2           |
 
-| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
-| :------------------------: | :---------------------------: |
-| Transferência de valores. | C03-CT08: Realizar uma transferência sem preencher a conta de destino. |
+| **Funcionalidade Afetada** |                     **Caso de Teste Relacionado**                      |
+| :------------------------: | :--------------------------------------------------------------------: |
+| Transferência de valores.  | C03-CT08: Realizar uma transferência sem preencher a conta de destino. |
 
-|  **Evidência(s)**   |
-| :-----------------: |
-| [Screenshot](/.medias/media-bug011.png) e [Video](/.medias/videos/bug011-C03-CT08.webm) | 
+|                                    **Evidência(s)**                                     |
+| :-------------------------------------------------------------------------------------: |
+| [Screenshot](/.medias/media-bug011.png) e [Video](/.medias/videos/bug011-C03-CT08.webm) |
 
 ---
 
 #### Bug 12: A mensagem de alerta quando o campo Valor está vazio não é amistosa.
 
-| **ID**  | **Descrição** |
-| ------- | ------------- |
-| BUG-012 | Ao efetuar uma transferência sem definir o valor, a mensagem "**transferValue must be a `number` type, but the final value was: `NaN` (cast from the value `""`).**" é exibida e não é amistosa ao usuário final.|
+| **ID**  | **Descrição**                                                                                                                                                                                                     |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BUG-012 | Ao efetuar uma transferência sem definir o valor, a mensagem "**transferValue must be a `number` type, but the final value was: `NaN` (cast from the value `""`).**" é exibida e não é amistosa ao usuário final. |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
 |         Baixa         |           Baixa            |   Aberto   |
 
-| **Passo a passo para simular o bug** |
-| ------------------------------------ |
+| **Passo a passo para simular o bug**               |
+| -------------------------------------------------- |
 | 1. Realizar uma transferência em informar o valor. |
 
-| **Comportamento Esperado** | **Comportamento Obtido** |
-| :------------------------: | :----------------------: |
+|                                                       **Comportamento Esperado**                                                       |                                              **Comportamento Obtido**                                              |
+| :------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------: |
 | A apresentação de uma mensagem amistosa ao usuário final, por exemplo, "Não é possível fazer uma transferência sem informar um valor." | Foi exibida a "transferValue must be a `number` type, but the final value was: `NaN` (cast from the value `""`).". |
 
 | **Ambiente**             |
@@ -429,32 +429,32 @@
 | Chrome v.136.            |
 | BugBank v1.1.2           |
 
-| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
-| :------------------------: | :---------------------------: |
-| Transferência de valores. | C03-CT09: Realizar uma transferência sem fornecer o valor. |
+| **Funcionalidade Afetada** |               **Caso de Teste Relacionado**                |
+| :------------------------: | :--------------------------------------------------------: |
+| Transferência de valores.  | C03-CT09: Realizar uma transferência sem fornecer o valor. |
 
-|  **Evidência(s)**   |
-| :-----------------: |
+|                                    **Evidência(s)**                                     |
+| :-------------------------------------------------------------------------------------: |
 | [Screenshot](/.medias/media-bug012.png) e [Video](/.medias/videos/bug012-C03-CT09.webm) |
 
 ---
 
 #### Bug 13: Apenas o campo Valor da transferência apresenta a obrigatoriedade de preenchimento quando os demais campos estão vazios.
 
-| **ID**  | **Descrição** |
-| ------- | ------------- |
+| **ID**  | **Descrição**                                                                                                                                                   |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | BUG-013 | Na tentativa de efetuar uma transferência sem preencher nenhuma informação, apenas o campo Valor da transferência que tem o comportamento de campo obrigatório. |
 
 | **Severidade do Bug** | **Prioridade de Correção** | **Status** |
 | :-------------------: | :------------------------: | :--------: |
 |         Média         |           Média            |   Aberto   |
 
-| **Passo a passo para simular o bug** |
-| ------------------------------------ |
+| **Passo a passo para simular o bug**                           |
+| -------------------------------------------------------------- |
 | 1. Efetuar uma transferência sem preencher nenhuma informação. |
 
-| **Comportamento Esperado** | **Comportamento Obtido** |
-| :------------------------: | :----------------------: |
+|                                          **Comportamento Esperado**                                           |                               **Comportamento Obtido**                               |
+| :-----------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: |
 | Criticar todos os campos obrigatórios tais como, Número da Conta, Dígito, Valor da transferência e Descrição. | Apenas o campo Valor da transferência que teve a crítica do sistema por estar vazio. |
 
 | **Ambiente**             |
@@ -464,12 +464,12 @@
 | Chrome v.136.            |
 | BugBank v1.1.2           |
 
-| **Funcionalidade Afetada** | **Caso de Teste Relacionado** |
-| :------------------------: | :---------------------------: |
-| Transferência de valores | C03-CT10: Realizar transferência sem fornecer todas as informações. |
+| **Funcionalidade Afetada** |                    **Caso de Teste Relacionado**                    |
+| :------------------------: | :-----------------------------------------------------------------: |
+|  Transferência de valores  | C03-CT10: Realizar transferência sem fornecer todas as informações. |
 
-|  **Evidência(s)**   |
-| :-----------------: |
+|                                    **Evidência(s)**                                     |
+| :-------------------------------------------------------------------------------------: |
 | [Screenshot](/.medias/media-bug013.png) e [Video](/.medias/videos/bug013-C03-CT10.webm) |
 
 ---
