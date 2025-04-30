@@ -77,8 +77,6 @@ Vale lembrar que após tratar todos os bugs críticos e médios, deve haver o di
 
 ## 6. Anexos
 
-Exemplos do que pode ser incluído neste tópico:
-
 - **Jira**
 
   - [Quadro de Atividades](/.medias/docs/Jira%20-%20Quadro%20de%20Atividades.md)
