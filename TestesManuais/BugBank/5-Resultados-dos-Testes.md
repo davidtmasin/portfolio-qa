@@ -47,8 +47,8 @@ Ao longo da execução dos testes, identificamos **13 bugs**, onde, **03 são de
 
 ## 4. Bugs Identificados
 
-| ID      | Descrição                                                                                                                          | Severidade | Status | Retestado e Aprovado? |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----: | :-------------------: |
+|   ID    | Descrição                                                                                                                          | Severidade | Status | Retestado e Aprovado? |
+| :-----: | ---------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----: | :-------------------: |
 | BUG-001 | A mensagem "É campo obrigatório" não está aparecendo ao deixar o campo "Nome" vazio.                                               |   Baixa    | Aberto |          Não          |
 | BUG-002 | A mensagem "Email não pode ser vazio" não é exibida ao enviar o formulário de cadastro com email vazio.                            |   Baixa    | Aberto |          Não          |
 | BUG-003 | A mensagem "Senha não pode ser vazio" não é exibida ao enviar o formulário de cadastro com senha vazia.                            |   Baixa    | Aberto |          Não          |
