@@ -67,7 +67,11 @@ Ao longo da execução dos testes, identificamos **13 bugs**, onde, **03 são de
 
 ## 5. Conclusão
 
-O sistema BugBank está parcialmente aprovado nos testes executados nas funcionalidades de Login na plataforma, Cadastro de usuário, Transferência de valores e Extrato da conta. Contudo, para garantir uma experiência satisfatória ao usuário e minimizar o impacto nos negócios, recomenda-se a realização de uma força-tarefa para agilizar a correção dos bugs críticos e nova execução dos testes reprovados para garantir que os bugs foram sanados.
+O sistema BugBank está com os testes parcialmente aprovados e requer atenção às funcionalidades de Cadastro de usuário e Transferência de valores pois, elas apresentaram todos bugs que foram identificados no decorrer da execução dos testes. 
+
+A sugestão para garantir uma experiência satisfatória ao usuário e minimizar o impacto nos negócios é que haja uma força-tarefa para agilizar a correção dos bugs críticos e médios, para que haja uma nova execução dos testes que confirmem a resolução dos bugs. Só assim, será possível enviar uma versão para produção.
+ 
+Vale lembrar que após tratar todos os bugs críticos e médios, deve haver o direcionamento para tratar daqueles com severidade baixa, apesar deles não causarem impacto negativo ao sistema, não podem ser ignorados pois, o objetivo final é garantir a maior qualidade possível do sistema para o usuário final.
 
 ---
 
