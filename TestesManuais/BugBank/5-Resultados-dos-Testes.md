@@ -13,7 +13,7 @@
 ## 1. Resumo
 
 Durante o período de testes, **31 casos de testes** foram executados nas funcionalidades principais do BugBank. O objetivo foi validar os fluxos principais e alternativos da jornada do cliente (cadastro, login, transferência e extrato).  
-Ao longo da execução, **13 bugs** foram identificados, sendo **3 críticos**. As correções foram direcionadas a equipe de desenvolvimento, entretanto, não foi possível finalizá-las dentro da sprint, logo, novas rodadas de testes não puderam ser executadas sobre as funcionalidades impactadas.
+Ao longo da execução dos testes, identificamos **13 bugs** onde, **03 são de severidade crítica**, **03 de severidade média** e **07 de severidade baixa**. As correções foram direcionadas a equipe de desenvolvimento, entretanto, não foi possível finalizá-las dentro da sprint, logo, novas rodadas de testes não puderam ser executadas sobre as funcionalidades impactadas.
 
 ---
 
@@ -35,12 +35,12 @@ Ao longo da execução, **13 bugs** foram identificados, sendo **3 críticos**. 
 
 ## 3. Funcionalidades Avaliadas
 
-| Módulo                   | Status   | Observações                                                                                                                                                                                                                                    |
-| ------------------------ | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Login na plataforma      | Aprovado | Foram criados **06 casos de testes** para esta funcionalidade e todas foram aprovadas.                                                                                                                                                         |
-| Cadastro de usuário      | Aprovado | Foram criados **09 casos de testes** para esta funcionalidade, onde 05 foram aprovados e 04 reprovados. Desses reprovados, foram reportados **03 bugs de severidade baixa** e **01 bug de severidade crítica**.                                |
-| Transferência de valores | Aprovado | Fram criados **10 casos de testes** para esta funcionalidade, onde 06 foram aprovados e 04 reprovados. Desses reprovados, foram reportados **03 bugs de severidade baixa**, **01 bug de severidade média** e **01 bug de severidade crítica**. |
-| Extrato da conta         | Aprovado | Foram criados 06 casos de testes para esta funcionalidade e todos foram aprovados.                                                                                                                                                             |
+| Módulo                   | Status   | Observações                                                                                                                                                                                                                                     |
+| ------------------------ | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Login na plataforma      | Aprovado | Foram criados **06 casos de testes** para esta funcionalidade e todas foram aprovadas.                                                                                                                                                          |
+| Cadastro de usuário      | Aprovado | Foram criados **09 casos de testes** para esta funcionalidade, onde 05 foram aprovados e 04 reprovados. Desses reprovados, foram reportados **01 bug de severidade crítica**, **01 bug de severidade média** e **03 bugs de severidade baixa**. |
+| Transferência de valores | Aprovado | Fram criados **10 casos de testes** para esta funcionalidade, onde 06 foram aprovados e 04 reprovados. Desses reprovados, foram reportados **01 bug de severidade crítica**, **02 bugs de severidade média** e **03 bugs de severidade baixa**. |
+| Extrato da conta         | Aprovado | Foram criados **06 casos de testes** para esta funcionalidade e todos foram aprovados.                                                                                                                                                          |
 
 ---
 
