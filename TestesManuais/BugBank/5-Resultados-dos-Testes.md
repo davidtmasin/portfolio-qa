@@ -13,7 +13,7 @@
 ## 1. Resumo
 
 Durante o período de testes, **31 casos de testes** foram executados nas funcionalidades liberadas do BugBank. O objetivo foi validar os fluxos principais e alternativos da jornada do cliente (cadastro, login, transferência e extrato).  
-Ao longo da execução dos testes, identificamos **13 bugs**, onde, **03 são de severidade crítica**, **03 de severidade média** e **07 de severidade baixa**. As correções foram direcionadas à equipe de desenvolvimento, entretanto, não foi possível finalizá-las dentro da sprint, logo, novas rodadas de testes não puderam ser executadas sobre as funcionalidades impactadas.
+Ao longo da execução dos testes, identificamos **13 bugs**, onde, **03 são de severidade crítica**, **03 de severidade média** e **07 de severidade baixa**. Essas identificações de bugs foram direcionadoas à equipe de desenvolvimento, entretanto, não foi houve o retorno das correções dentro da sprint, logo, novas rodadas de testes não puderam ser executadas sobre as funcionalidades impactadas.
 
 ---
 
