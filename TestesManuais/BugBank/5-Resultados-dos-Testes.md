@@ -6,6 +6,8 @@
 
 **Período da Execução dos Testes:** 22/04/2025 a 27/04/2025
 
+**Data**: 29/04/2025
+
 ---
 
 ## 1. Resumo
