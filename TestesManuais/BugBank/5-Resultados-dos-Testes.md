@@ -40,7 +40,7 @@ Ao longo da execução dos testes, identificamos **13 bugs**, onde, **03 são de
 | ------------------------ | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Login na plataforma      | Aprovado  | Foram criados **06 casos de testes** para esta funcionalidade e todas foram aprovadas.                                                                                                                                                          |
 | Cadastro de usuário      | Reprovado | Foram criados **09 casos de testes** para esta funcionalidade, onde 05 foram aprovados e 04 reprovados. Desses reprovados, temos **01 bug de severidade crítica**, **01 bug de severidade média** e **03 bugs de severidade baixa**. |
-| Transferência de valores | Reprovado | Fram criados **10 casos de testes** para esta funcionalidade, onde 06 foram aprovados e 04 reprovados. Desses reprovados, temos **01 bug de severidade crítica**, **02 bugs de severidade média** e **03 bugs de severidade baixa**. |
+| Transferência de valores | Reprovado | Foram criados **10 casos de testes** para esta funcionalidade, onde 06 foram aprovados e 04 reprovados. Desses reprovados, temos **01 bug de severidade crítica**, **02 bugs de severidade média** e **03 bugs de severidade baixa**. |
 | Extrato da conta         | Aprovado  | Foram criados **06 casos de testes** para esta funcionalidade e todos foram aprovados.                                                                                                                                                          |
 
 ---
