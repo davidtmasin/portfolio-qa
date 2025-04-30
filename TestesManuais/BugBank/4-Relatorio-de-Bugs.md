@@ -253,9 +253,9 @@
 | Chrome v.136.            |
 | BugBank v1.1.2           |
 
-| **Funcionalidade Afetada** |         **Caso de Teste Relacionado**          |
-| :------------------------: | :--------------------------------------------: |
-|    Cadastro de usuário.    | C02-CT09: Cadastrar novamente o mesmo usuário. |
+|        **Funcionalidades Afetadas**        |         **Caso de Teste Relacionado**          |
+| :----------------------------------------: | :--------------------------------------------: |
+| Cadastro de usuário e Login na plataforma. | C02-CT09: Cadastrar novamente o mesmo usuário. |
 
 |               **Evidência(s)**                |
 | :-------------------------------------------: |
