@@ -75,6 +75,15 @@ Vale lembrar que após tratar todos os bugs críticos e médios, deve haver o di
 
 ---
 
+# 6. Gráficos
+
+```mermaid
+graph TD
+  A --> B;
+  A --> C;
+  B --> D;
+  C --> D;
+
 ## 6. Anexos
 
 - **Jira**

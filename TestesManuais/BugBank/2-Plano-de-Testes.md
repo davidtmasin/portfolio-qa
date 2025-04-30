@@ -83,7 +83,7 @@ Recursos e configurações:
 
 | Fase                                                                                                                                       | Início     | Fim        |
 | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | ---------- |
-| [Cenários e Casos de Teste](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/3-Cenarios-e-Casos-de-Teste.md) | 19/04/2025 | 21/04/2025 |
+| [Cenários e Casos de Teste](https://github.com/davidtmasin/portfolio-qa/blob/main/TestesManuais/BugBank/3-Cenarios-e-Casos-de-Teste.md) | 19/04/2025 | 21/04/2025 |
 | Execução dos testes                                                                                                                        | 22/04/2025 | 27/04/2025 |
 | [Relatório de bugs](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/4-Relatorio-de-Bugs.md)                 | 22/04/2025 | 27/04/2025 |
 | Revisão                                                                                                                                    | 28/04/2025 | 30/04/2025 |
