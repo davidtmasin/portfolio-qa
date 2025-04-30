@@ -71,7 +71,7 @@ O sistema BugBank está com os testes parcialmente aprovados e requer atenção 
 
 A sugestão para garantir uma experiência satisfatória ao usuário e minimizar o impacto nos negócios é que haja uma força-tarefa para agilizar a correção dos bugs críticos e médios, para que haja uma nova execução dos testes que confirmem a resolução dos bugs. Só assim, será possível enviar uma versão para produção.
  
-Vale lembrar que após tratar todos os bugs críticos e médios, deve haver o direcionamento para tratar daqueles com severidade baixa, apesar deles não causarem impacto negativo ao sistema, não podem ser ignorados pois, o objetivo final é garantir a maior qualidade possível do sistema para o usuário final.
+Vale lembrar que após tratar todos os bugs críticos e médios, deve haver o direcionamento para tratar daqueles com severidade baixa, apesar deles não causarem um grande impacto ao sistema, não podem ser ignorados pois, o objetivo final é garantir a maior qualidade possível do sistema para o usuário final.
 
 ---
 
