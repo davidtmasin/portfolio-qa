@@ -87,4 +87,4 @@ Recursos e configurações:
 | Execução dos testes                                                                                                                        | 22/04/2025 | 27/04/2025 |
 | [Relatório de bugs](https://github.com/davidtmasin/portfolio-qa/blob/main/Testes%20Manuais/BugBank/4-Relatorio-de-Bugs.md)                 | 22/04/2025 | 27/04/2025 |
 | Revisão                                                                                                                                    | 28/04/2025 | 30/04/2025 |
-| Resultados dos testes                                                                                                                      | 29/04/2025 | 30/04/2025 |
+| [Resultados dos testes](https://github.com/davidtmasin/portfolio-qa/blob/main/TestesManuais/BugBank/5-Resultados-dos-Testes.md)            | 29/04/2025 | 30/04/2025 |

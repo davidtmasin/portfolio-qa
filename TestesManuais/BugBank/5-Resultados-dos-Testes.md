@@ -96,9 +96,13 @@ Exemplos do que pode ser incluído neste tópico:
     - [Video](/.medias/videos/C01-CT03)
 
   - C01-CT04: Login com email em formato inválido
+
     - [Video](/.medias/videos/C01-CT04)
+
   - C01-CT05: Login sem fornecer e-mail e senha
+
     - [Video](/.medias/videos/C01-CT05)
+
   - C01-CT06: Login com as credenciais de e-mail e senha válidas
 
     - [Video](/.medias/videos/C01-CT06)
@@ -124,7 +128,9 @@ Exemplos do que pode ser incluído neste tópico:
     - [Video](/.medias/videos/C02-CT05)
 
   - C02-CT06: Cadastrar sem fornecer a informação de Senha
+
     - [Video](/.medias/videos/C02-CT06)
+
   - C02-CT07: Cadastrar sem fornecer a informação de Confirmação de Senha
 
     - [Video](/.medias/videos/C02-CT07)
@@ -146,9 +152,13 @@ Exemplos do que pode ser incluído neste tópico:
     - [Video](/.medias/videos/C03-CT02)
 
   - C03-CT03: Transferir dinheiro para uma conta válida, estando com saldo insuficiente
+
     - [Video](/.medias/videos/C03-CT03)
+
   - C03-CT04: Transferir dinheiro para uma conta inválida, estando com saldo insuficiente
+
     - [Video](/.medias/videos/C03-CT04)
+
   - C03-CT05: Realizar uma transferência com valor zero
 
     - [Video](/.medias/videos/C03-CT05)
@@ -158,7 +168,9 @@ Exemplos do que pode ser incluído neste tópico:
     - [Video](/.medias/videos/C03-CT06)
 
   - C03-CT07: Realizar uma transferência sem preencher o campo obrigatório de descrição
+
     - [Video](/.medias/videos/C03-CT07)
+
   - C03-CT08: Realizar uma transferência sem preencher a conta de destino
 
     - [Video](/.medias/videos/C03-CT08)
@@ -168,7 +180,9 @@ Exemplos do que pode ser incluído neste tópico:
     - [Video](/.medias/videos/C03-CT09)
 
   - C03-CT10: Realizar transferência sem fornecer todas as informações
+
     - [Video](/.medias/videos/C03-CT10)
+
   - C04-CT01: Checar registro de abertura de conta no extrato de uma conta criada com saldo
 
     - [Video](/.medias/videos/C04-CT01)
@@ -214,38 +228,41 @@ Exemplos do que pode ser incluído neste tópico:
     - [Screenshot](/.medias/media-bug004.png)
     - [Video](/.medias/videos/bug004-C02-CT07.webm)
 
-  - BUG-005:
+  - BUG-005: Não há nenhuma crítica pelo sistema ao cadastrar uma nova conta com as mesmas informações.
 
     - [Video](/.medias/videos/bug005-C02-CT09.webm)
 
-  - BUG-006:
+  - BUG-006: Os campos do formulário de cadastro não são limpos após o envio.
 
     - [Video](/.medias/videos/bug006-C02-CT09.webm)
 
-  - BUG-007:
+  - BUG-007: Login de um cadastro duplicado só é válido para última conta criada.
 
     - [Video](/.medias/videos/bug007-C02-CT09.webm)
 
-  - BUG-008:
+  - BUG-008: Redirecionamento para a página de Extrato não ocorre logo após realizar uma transferência.
 
     - [Video](/.medias/videos/bug008-C03-CT01.webm)
 
-  - BUG-009:
+  - BUG-009: Após a transferência, os campos preenchidos não são limpos.
 
     - [Video](/.medias/videos/bug009-C03-CT01.webm)
 
-  - BUG-010:
+  - BUG-010: Não houve crítica na ausência do preenchimento do campo Descrição no formulário de transferência.
+
     - [Video](/.medias/videos/bug010-C03-CT07.webm)
-  - BUG-011:
+
+  - BUG-011:A transferência está ocorrendo quando não fornecemos uma conta de destino.
 
     - [Screenshot](/.medias/media-bug011.png)
     - [Video](/.medias/videos/bug011-C03-CT08.webm)
 
-  - BUG-012:
+  - BUG-012: A mensagem de alerta quando o campo Valor está vazio não é amistosa.
 
     - [Screenshot](/.medias/media-bug012.png)
     - [Video](/.medias/videos/bug012-C03-CT09.webm)
 
-  - BUG-013:
+  - BUG-013: Apenas o campo Valor da transferência apresenta a obrigatoriedade de preenchimento quando os demais campos estão vazios.
+
     - [Screenshot](/.medias/media-bug013.png)
     - [Video](/.medias/videos/bug013-C03-CT10.webm)
