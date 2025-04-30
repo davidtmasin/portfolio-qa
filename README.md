@@ -20,10 +20,10 @@ Neste repositório, você verá:
 ## Navegando pelo repositório
 
 1. Explore o contéudo dos diretórios conforme sua temática.
-2. No diretório [**Documentação da Qualidade**](https://github.com/davidtmasin/portfolio-qa/tree/main/Documenta%C3%A7%C3%A3o%20da%20Qualidade), haverão modelos pré-prontos para auxiliar nas suas atividades, além de documentos reais resultantes dos meus estudos.
-3. No diretório [**Testes Manuais**](https://github.com/davidtmasin/portfolio-qa/tree/main/Testes%20Manuais), haverão projetos de testes manuais provenientes dos meus estudos.
-4. No diretório [**Testes Automatizados**](https://github.com/davidtmasin/portfolio-qa/tree/main/Testes%20Automatizados), haverão projetos de testes automatizados resultantes de cursos realizados, tais como, Cypress, Robotframework e Selenium.
-5. No diretório [**Testes de Performance**](https://github.com/davidtmasin/portfolio-qa/tree/main/Testes%20de%20Performance), teremos estudos relacionados ao uso de testes de perfomance em ferramentas conhecidas, tais como, jmeter, k6 e locust.
+2. No diretório [**Documentação da Qualidade**](https://github.com/davidtmasin/portfolio-qa/tree/main/DocumentosQualidade), haverão modelos pré-prontos para auxiliar nas suas atividades, além de documentos reais resultantes dos meus estudos.
+3. No diretório [**Testes Manuais**](https://github.com/davidtmasin/portfolio-qa/tree/main/TestesManuais), haverão projetos de testes manuais provenientes dos meus estudos.
+4. No diretório [**Testes Automatizados**](https://github.com/davidtmasin/portfolio-qa/tree/main/TestesAutomatizados), haverão projetos de testes automatizados resultantes de cursos realizados, tais como, Cypress, Robotframework e Selenium.
+5. No diretório [**Testes de Performance**](https://github.com/davidtmasin/portfolio-qa/tree/main/TestesPerformance), teremos estudos relacionados ao uso de testes de perfomance em ferramentas conhecidas, tais como, jmeter, k6 e locust.
 
 ---
 
