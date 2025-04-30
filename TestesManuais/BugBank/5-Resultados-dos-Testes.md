@@ -36,32 +36,32 @@ Ao longo da execução dos testes, identificamos **13 bugs**, onde, **03 são de
 
 ## 3. Funcionalidades Avaliadas
 
-| Módulo                   | Status    | Observações                                                                                                                                                                                                                                     |
-| ------------------------ | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Login na plataforma      | Aprovado  | Foram criados **06 casos de testes** para esta funcionalidade e todas foram aprovadas.                                                                                                                                                          |
-| Cadastro de usuário      | Reprovado | Foram criados **09 casos de testes** para esta funcionalidade, onde 05 foram aprovados e 04 reprovados. Desses reprovados, temos **01 bug de severidade crítica**, **01 bug de severidade média** e **03 bugs de severidade baixa**. |
+| Módulo                   | Status    | Observações                                                                                                                                                                                                                           |
+| ------------------------ | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Login na plataforma      | Aprovado  | Foram criados **06 casos de testes** para esta funcionalidade e todas foram aprovadas.                                                                                                                                                |
+| Cadastro de usuário      | Reprovado | Foram criados **09 casos de testes** para esta funcionalidade, onde 05 foram aprovados e 04 reprovados. Desses reprovados, temos **01 bug de severidade crítica**, **01 bug de severidade média** e **03 bugs de severidade baixa**.  |
 | Transferência de valores | Reprovado | Foram criados **10 casos de testes** para esta funcionalidade, onde 06 foram aprovados e 04 reprovados. Desses reprovados, temos **01 bug de severidade crítica**, **02 bugs de severidade média** e **03 bugs de severidade baixa**. |
-| Extrato da conta         | Aprovado  | Foram criados **06 casos de testes** para esta funcionalidade e todos foram aprovados.                                                                                                                                                          |
+| Extrato da conta         | Aprovado  | Foram criados **06 casos de testes** para esta funcionalidade e todos foram aprovados.                                                                                                                                                |
 
 ---
 
 ## 4. Bugs Identificados
 
 | ID      | Descrição                                                                                                                          | Severidade | Status | Retestado e Aprovado? |
-| ------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ | --------------------- |
-| BUG-001 | A mensagem "É campo obrigatório" não está aparecendo ao deixar o campo "Nome" vazio.                                               | Baixa      | Aberto | Não                   |
-| BUG-002 | A mensagem "Email não pode ser vazio" não é exibida ao enviar o formulário de cadastro com email vazio.                            | Baixa      | Aberto | Não                   |
-| BUG-003 | A mensagem "Senha não pode ser vazio" não é exibida ao enviar o formulário de cadastro com senha vazia.                            | Baixa      | Aberto | Não                   |
-| BUG-004 | A mensagem "Confirmar senha não pode ser vazio" não é exibida ao enviar o formulário de cadastro com a confirmação de senha vazia. | Baixa      | Aberto | Não                   |
-| BUG-005 | Não há nenhuma crítica pelo sistema ao cadastrar uma nova conta com as mesmas informações.                                         | Crítica    | Aberto | Não                   |
-| BUG-006 | Os campos do formulário de cadastro não são limpos após o envio.                                                                   | Média      | Aberto | Não                   |
-| BUG-007 | Login de um cadastro duplicado só é válido para última conta criada.                                                               | Crítica    | Aberto | Não                   |
-| BUG-008 | Redirecionamento para a página de Extrato não ocorre logo após realizar uma transferência.                                         | Baixa      | Aberto | Não                   |
-| BUG-009 | Após a transferência, os campos preenchidos não são limpos.                                                                        | Baixa      | Aberto | Não                   |
-| BUG-010 | Não houve crítica na ausência do preenchimento do campo Descrição no formulário de transferência.                                  | Média      | Aberto | Não                   |
-| BUG-011 | A transferência está ocorrendo quando não fornecemos uma conta de destino.                                                         | Crítica    | Aberto | Não                   |
-| BUG-012 | A mensagem de alerta quando o campo Valor está vazio não é amistosa.                                                               | Baixa      | Aberto | Não                   |
-| BUG-013 | Apenas o campo Valor da transferência apresenta a obrigatoriedade de preenchimento quando os demais campos estão vazios.           | Média      | Aberto | Não                   |
+| ------- | ---------------------------------------------------------------------------------------------------------------------------------- | :--------: | :----: | :-------------------: |
+| BUG-001 | A mensagem "É campo obrigatório" não está aparecendo ao deixar o campo "Nome" vazio.                                               |   Baixa    | Aberto |          Não          |
+| BUG-002 | A mensagem "Email não pode ser vazio" não é exibida ao enviar o formulário de cadastro com email vazio.                            |   Baixa    | Aberto |          Não          |
+| BUG-003 | A mensagem "Senha não pode ser vazio" não é exibida ao enviar o formulário de cadastro com senha vazia.                            |   Baixa    | Aberto |          Não          |
+| BUG-004 | A mensagem "Confirmar senha não pode ser vazio" não é exibida ao enviar o formulário de cadastro com a confirmação de senha vazia. |   Baixa    | Aberto |          Não          |
+| BUG-005 | Não há nenhuma crítica pelo sistema ao cadastrar uma nova conta com as mesmas informações.                                         |  Crítica   | Aberto |          Não          |
+| BUG-006 | Os campos do formulário de cadastro não são limpos após o envio.                                                                   |   Média    | Aberto |          Não          |
+| BUG-007 | Login de um cadastro duplicado só é válido para última conta criada.                                                               |  Crítica   | Aberto |          Não          |
+| BUG-008 | Redirecionamento para a página de Extrato não ocorre logo após realizar uma transferência.                                         |   Baixa    | Aberto |          Não          |
+| BUG-009 | Após a transferência, os campos preenchidos não são limpos.                                                                        |   Baixa    | Aberto |          Não          |
+| BUG-010 | Não houve crítica na ausência do preenchimento do campo Descrição no formulário de transferência.                                  |   Média    | Aberto |          Não          |
+| BUG-011 | A transferência está ocorrendo quando não fornecemos uma conta de destino.                                                         |  Crítica   | Aberto |          Não          |
+| BUG-012 | A mensagem de alerta quando o campo Valor está vazio não é amistosa.                                                               |   Baixa    | Aberto |          Não          |
+| BUG-013 | Apenas o campo Valor da transferência apresenta a obrigatoriedade de preenchimento quando os demais campos estão vazios.           |   Média    | Aberto |          Não          |
 
 ---
 
